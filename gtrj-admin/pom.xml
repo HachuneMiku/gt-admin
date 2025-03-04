@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-    <groupId>com.gt</groupId>
+    <groupId>com.gtrj</groupId>
     <artifactId>gtrj</artifactId>
     <version>3.8.9</version>
 
-    <name>gtrj-admin</name>
+    <name>gtrj</name>
     <url>http://www.ruoyi.vip</url>
     <description>GTRJ后台管理系统</description>
     
@@ -185,35 +185,35 @@
 
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.gt</groupId>
+                <groupId>com.gtrj</groupId>
                 <artifactId>gtrj-quartz</artifactId>
                 <version>${gtrj.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.gt</groupId>
+                <groupId>com.gtrj</groupId>
                 <artifactId>gtrj-generator</artifactId>
                 <version>${gtrj.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.gt</groupId>
+                <groupId>com.gtrj</groupId>
                 <artifactId>gtrj-framework</artifactId>
                 <version>${gtrj.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.gt</groupId>
+                <groupId>com.gtrj</groupId>
                 <artifactId>gtrj-system</artifactId>
                 <version>${gtrj.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.gt</groupId>
+                <groupId>com.gtrj</groupId>
                 <artifactId>gtrj-common</artifactId>
                 <version>${gtrj.version}</version>
             </dependency>
@@ -222,12 +222,12 @@
     </dependencyManagement>
 
     <modules>
-        <module>gtrj-admin-admin</module>
-        <module>gtrj-admin-framework</module>
-        <module>gtrj-admin-system</module>
-        <module>gtrj-admin-quartz</module>
-        <module>gtrj-admin-generator</module>
-        <module>gtrj-admin-common</module>
+        <module>gtrj-admin</module>
+        <module>gtrj-framework</module>
+        <module>gtrj-system</module>
+        <module>gtrj-quartz</module>
+        <module>gtrj-generator</module>
+        <module>gtrj-common</module>
     </modules>
     <packaging>pom</packaging>
 
